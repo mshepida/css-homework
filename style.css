@@ -2,7 +2,7 @@ body{
     background-color: #638a79;
     background-image: url("img/body-bg.png");
     background-repeat: repeat-x;
-    background-position: fixed;
+   
 	font-size: 13px;
 	line-height: 18px;
 	color: #333;
@@ -84,8 +84,8 @@ a.button {
 	background-position: 0% 0%;
 }
 a.button:hover {
-	background-position-y:-38px 
+	background-position:0 -38px;
 }
 a.button:active {
-	background-position-y:-76px
+	background-position:0 -76px;
 }
